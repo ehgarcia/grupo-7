@@ -8,3 +8,10 @@ Va enfocada a amantes y especialistas del café (catadores, baristas) que quiera
 
 ## Integrantes 
 1. Mi nombre es Daniela Marín, soy de Bucaramanga, Colombia. Soy nueva en este mundo de las ciencias de la computación, este es mi primer proyecto y tengo muchas expectativas respecto a mi proceso de aprendizaje. 
+
+## Referentes del Mercado
+1. https://www.juanvaldezcafe.com/ Por la sección que presentan (Historia).
+2. https://bonafide.com.ar/ Por la interacción con los productos (Sección favoritos)
+3. https://www.modobarista.com/ Por los recursos gráficos (Íconos).
+4. https://www.urbanbaristas.co.uk/  Por la estética y funcionalidades que presentan (video en el home).
+5. https://www.dolce-gusto.com.ar/ Por los productos que venden (cafeteras). 
