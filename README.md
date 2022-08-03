@@ -8,6 +8,7 @@ Va enfocada a amantes y especialistas del café (catadores, baristas) que quiera
 
 ## Integrantes 
 1. Mi nombre es Daniela Marín, soy de Bucaramanga, Colombia. Soy nueva en este mundo de las ciencias de la computación, este es mi primer proyecto y tengo muchas expectativas respecto a mi proceso de aprendizaje. 
+2. Mi nombre es Juan, soy de Palmira Colombia. Estudie diseño grafico 10 años atras  y este es mi primer proyecto
 
 ## Referentes del Mercado
 1. https://www.juanvaldezcafe.com/ Por la sección que presentan (Historia).
