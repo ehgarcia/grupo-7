@@ -1,7 +1,7 @@
 # grupo-7
 
 ## Producto/Servicio
-Nuestro sitio web se especializa en la venta de café en sus distintos formatos, desde café a granel, en grado, gourmet y ecológico, además podrás encontrar utencilios (cafeteras), que darán un valor agregado a sus cualidades en la elaboración de una taza de café de calidad. 
+Nuestro sitio web se especializa en la venta de café en sus distintos formatos, desde café xxxx hasta xxxx, además podrás encontrar cafeteras y accesorios, que darán un valor agregado a sus cualidades en la elaboración de una taza de café de calidad. 
 
 ## Audiencia Objetivo
 Va enfocada a amantes y especialistas del café (catadores, baristas) que quieran poner a prueba sus habilidades sensoriales. 
@@ -9,6 +9,7 @@ Va enfocada a amantes y especialistas del café (catadores, baristas) que quiera
 ## Integrantes 
 1. Mi nombre es Daniela Marín, soy de Bucaramanga, Colombia. Soy nueva en este mundo de las ciencias de la computación, este es mi primer proyecto y tengo muchas expectativas respecto a mi proceso de aprendizaje. 
 2. Mi nombre es Juan, soy de Palmira Colombia. Estudie diseño grafico 10 años atras  y este es mi primer proyecto
+3. Mi nobre es Ezequiel Garcia. Soy Ing de Pre venta en una empresa de telecomunicaciones y este es mi primer proyecto. 
 
 ## Referentes del Mercado
 1. https://www.juanvaldezcafe.com/ Por la sección que presentan (Historia).
