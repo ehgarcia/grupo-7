@@ -1,15 +1,22 @@
-# grupo-7
+# Grupo-7
 
 ## Producto/Servicio
-Nuestro sitio web se especializa en la venta de café en sus distintos formatos, desde café xxxx hasta xxxx, además podrás encontrar cafeteras y accesorios, que darán un valor agregado a sus cualidades en la elaboración de una taza de café de calidad. 
+De la finca a tu casa
+
+Somos un E-commerce enfocado en la venta de cafe y sus accesorios para su preparacion. Hacemos posible que tengas granos de cafe de distintas regiones, molidos a medida para tu forma de preparacion favorita. 
+
+Inspirados en la Finca de Buenos Aires ubicada en Colombia, decidimos hacer posible que cada persona pueda tener su taza de café. Nuesta mision es llevar cafe de la finca a tu casa, que complementa la forma en la que trabajamos y vivimos.
+
+Cafe Buenos aires tiene un compromiso con el cuidado del medio ambiente. Por ello, tambien ofrecemos café orgánico, aquel que se cultiva de forma natural sin pesticidas que dañan el planeta Tierra.
+
 
 ## Audiencia Objetivo
-Va enfocada a amantes y especialistas del café (catadores, baristas) que quieran poner a prueba sus habilidades sensoriales. 
+Nuestra audiencia es aquel amante del cafe que quiere avocarse a la busqueda de distintas formas y aromas, poniendo a prueba sus habilidades sensoriales. 
 
 ## Integrantes 
 1. Mi nombre es Daniela Marín, soy de Bucaramanga, Colombia. Soy nueva en este mundo de las ciencias de la computación, este es mi primer proyecto y tengo muchas expectativas respecto a mi proceso de aprendizaje. 
 2. Mi nombre es Juan, soy de Palmira Colombia. Estudie diseño grafico 10 años atras  y este es mi primer proyecto
-3. Mi nobre es Ezequiel Garcia. Soy Ing de Pre venta en una empresa de telecomunicaciones y este es mi primer proyecto. 
+3. Mi nobre es Ezequiel Garcia. Soy Ing de Pre venta en una empresa de telecomunicaciones y este es mi primer proyecto.
 
 ## Referentes del Mercado
 1. https://www.juanvaldezcafe.com/ Por la sección que presentan (Historia).
