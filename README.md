@@ -24,3 +24,7 @@ Nuestra audiencia es aquel amante del cafe que quiere avocarse a la busqueda de 
 3. https://www.modobarista.com/ Por los recursos gráficos (Íconos).
 4. https://www.urbanbaristas.co.uk/  Por la estética y funcionalidades que presentan (video en el home).
 5. https://www.dolce-gusto.com.ar/ Por los productos que venden (cafeteras). 
+
+
+## Enlace de Trello
+https://trello.com/b/pKILTZDF
