@@ -1,0 +1,32 @@
+.main-video__video{
+    width: 100%;
+}
+
+
+.products{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.products-cards{
+    display: flex;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.card__items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
