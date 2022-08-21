@@ -6,7 +6,10 @@
 }
 
 :root{
-    --main-bg-color: pink;
+    --main-bg-color: #F5E8C7;
+    --main-color: #DEBA9D;
+    --main-recolor: #9E7777;
+    --main-othercolor: #6F4C5B;
 }
 
 nav{
