@@ -50,11 +50,11 @@ nav{
     padding-left: 25px;
 }
 
-.menu-nav, .menu-list, .footer-list-socialMedia, .footer-list-account, .footer-list-information{
+.menu-nav, .menu-list, .footer-list-socialMedia, .footer-list-account, .footer-list-information, .products-filter-categories-list{
         list-style: none;
 }
 
-.menu-nav a, .menu-list a, .footer-list-socialMedia a, .footer-list-account a, .footer-list-information a{
+.menu-nav a, .menu-list a, .footer-list-socialMedia a, .footer-list-account a, .footer-list-information a, .products-filter-categories-list a{
     text-decoration: none;
     color: black;
 }
@@ -75,7 +75,12 @@ nav{
 }
 
 
-
+.products{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
 
 
 
