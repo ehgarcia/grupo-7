@@ -13,7 +13,16 @@
     --main-othercolor: #6F4C5B;
 }
 
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    font-size: small;
+}
+
 nav{
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,27 +50,40 @@ nav{
     padding-left: 25px;
 }
 
-.main-nav{
-    list-style: none;
+.main-nav, .menu-list{
+        list-style: none;
+}
+
+.main-nav a, .menu-list a{
+    text-decoration: none;
+    color: black;
 }
 
 .main-nav__item{
     display: inline-block;
 }
 
-
-
-
-
-
-
+.menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
 
 /* Caja de herramientas */
 
-.lugarsito{
+.space{
     margin: 10px;
     padding: 5px;
 }
+
+.space-arround{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+/* Media Querys */
+
