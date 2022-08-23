@@ -17,6 +17,7 @@ Nuestra audiencia es aquel amante del cafe que quiere avocarse a la busqueda de 
 1. Mi nombre es Daniela Marín, soy de Bucaramanga, Colombia. Soy nueva en este mundo de las ciencias de la computación, este es mi primer proyecto y tengo muchas expectativas respecto a mi proceso de aprendizaje. 
 2. Mi nombre es Juan, soy de Palmira Colombia. Estudie diseño grafico 10 años atras  y este es mi primer proyecto
 3. Mi nobre es Ezequiel Garcia. Soy Ing de Pre venta en una empresa de telecomunicaciones y este es mi primer proyecto.
+4. Mi nombre es Juan Manuel Vales, me egresé del secundario hace un año con especializacion en Artes Visuales, es mi primer proyecto.
 
 ## Referentes del Mercado
 1. https://www.juanvaldezcafe.com/ Por la sección que presentan (Historia).
