@@ -8,7 +8,4 @@
 4. Hacer menos
     dejar para ultimo momento / procastinar
 5. Dejar de hacer
-   No comunicar al equipo las ausencias en los compromisos / levantar la mano  
-
-
-   
+   No comunicar al equipo las ausencias en los compromisos / levantar la mano

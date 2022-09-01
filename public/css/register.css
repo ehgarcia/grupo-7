@@ -1,0 +1,44 @@
+.formulario{
+    background-color: var(--main-othercolor);
+    width: 80%;
+    /* display: flex; */
+
+    border: 5px solid blue;
+}
+
+.user{
+    border: 2px solid yellow;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.container-formulario{
+    width: 100%;
+    /* display: flex; */
+    border: 2px solid greenyellow;
+
+}
+
+
+
+.input-formulario{
+    display: flex;
+}
+
+.formulario-campos{
+    display: flex;
+    width: 100%;
+}
+
+.form-left{
+    width: 50%;
+}
+
+.form-rigth{
+    width: 50%;
+}
+
+
+.register{
+    background-color: var(--main-color);
+}
