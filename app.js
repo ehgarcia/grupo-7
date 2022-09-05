@@ -23,5 +23,8 @@ app.get('/login', (req,res)=>{
     res.sendFile(path.join(__dirname,'/views/login.html'))
 })
 
+app.get('/productDetails', (req,res)=>{
+    res.sendFile(path.join(__dirname,'/views/productDetails.html'))
+})
 
 app.listen('3000')
