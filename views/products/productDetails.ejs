@@ -1,59 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<%- include('/views/partials/head.ejs') %> 
 
-    <!-- Font Awesome Icons  -->
-    <script src="https://kit.fontawesome.com/9eea7acfad.js" crossorigin="anonymous"></script>
+  <!-- hay que ver como hacer el llamado a este css  <link rel="stylesheet" href="../public/stylesheets/productDetails.css"> mientras tanto esto va a estar roto -->
 
-    <!-- Google Fonts Poppins  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-
-    <!-- style sheets -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/productDetails.css">
-    <title>Cafe Buenos Aires</title>
-</head>
 
 <body>
-    <header>
-        <div class="offer">
-            <p>3 cuotas sin interes y envio gratis en compras mayores a $5000</p>
-        </div>
-        <nav>
-            <div class="logo">
-                <img class="logo__icon" src="/images/android-chrome-192x192.png" alt="Logo Cafe Buenos Aires" srcset="">
-            </div>
 
-            <div class="searchBox">
-                <input id="searchBox__input" class="searchBox__input" placeholder="Buscar..." type="text"><i
-                    class="fa-solid fa-magnifying-glass"></i>
-            </div>
+    <%- include('/views/partials/header.ejs') %> 
 
-            <ul class="menu-nav space">
-                <li class="menu-nav__item"><a href="">Ingresar<i class="fa-solid fa-user"></i></a></li>
-                <li class="menu-nav__item"><a href="/productCart"><i class="fa-solid fa-cart-shopping"></i></a></li>
-            </ul>
-
-        </nav>
-        <div class="menu">
-            <ul class="menu-list">
-                <li class="menu-list__item space-arround"><a href="">Cafe</a></li>
-                <li class="menu-list__item space-arround"><a href="">Accesorios</a></li>
-                <li class="menu-list__item space-arround"><a href="">Barista Tools</a></li>
-                <li class="menu-list__item space-arround"><a href="">Cafeteras</a></li>
-            </ul>
-        </div>
-    </header>
     <main>
         <div class="cabecera">
             <div class="flecha"><i class="fa-sharp fa-solid fa-arrow-left"></i></div>
@@ -142,30 +98,7 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div class="logo space">
-            <img class="logo__icon" src="/images/android-chrome-192x192.png" alt="Logo Cafe Buenos Aires" srcset="">
-        </div>
-
-        <ul class="footer-list-socialMedia">
-            <h3>Contacto</h3>
-            <li class="footer-list-socialMedia__item"><a href="">@Cafebuenosaires</a></li>
-            <li class="footer-list-socialMedia__item"><a href="">info@cafebuenosaires.com.ar</a></li>
-        </ul>
-
-        <ul class="footer-list-account">
-            <h3>Mi Cuenta</h3>
-            <li><a href="">Mis Compras</a></li>
-            <li><a href="">Mis Favoritos</a></li>
-        </ul>
-
-        <ul class="footer-list-information">
-            <h3>Informacion</h3>
-            <li><a href="">Sobre Cafe buenos Aires</a></li>
-            <li><a href="">Preguntas Frecuentes</a></li>
-            <li><a href="">Terminos y Condiciones</a></li>
-        </ul>
-    </footer>
+    <%- include('/views/partials/footer.ejs') %> 
 </body>
 
 </html>

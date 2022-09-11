@@ -1,27 +1,17 @@
 {
-  "name": "grupo_7_cafebuenosaires",
-  "version": "1.0.0",
-  "description": "De la finca a tu casa",
-  "main": "app.js",
+  "name": "grupo-7-cafebuenosaires",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "dev": "nodemon app.js"
-    
+    "start": "nodemon ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ehgarcia/grupo_7_cafeBuenosAires.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ehgarcia/grupo_7_cafeBuenosAires/issues"
-  },
-  "homepage": "https://github.com/ehgarcia/grupo_7_cafeBuenosAires#readme",
   "dependencies": {
-    "express": "^4.18.1"
-  },
-  "devDependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
     "nodemon": "^2.0.19"
   }
 }

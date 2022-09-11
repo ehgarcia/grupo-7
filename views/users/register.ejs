@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include ('./partials/head.ejs') %>
+
+    <!-- hay que ver como hacer el llamado a este css <link rel="stylesheet" href="../public/stylesheets/register.css"> mientras tanto esto va a estar roto -->
+
+    <%- include ('./partials/head.ejs') %>
+
+        <body>
+
+            <%- include ('./partials/header.ejs') %>
+
+                <header>
+                    <div class="offer">
+                        <p>3 cuotas sin interes y envio gratis en compras mayores a $5000</p>
+                    </div>
+                    <nav>
+                        <div class="logo">
+                            <img class="logo__icon" src="/images/android-chrome-192x192.png"
+                                alt="Logo Cafe Buenos Aires" srcset="">
+                        </div>
+
+                        <div class="searchBox">
+                            <input id="searchBox__input" class="searchBox__input" placeholder="Buscar..." type="text"><i
+                                class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+
+                        <ul class="menu-nav space">
+                            <li class="menu-nav__item"><a href="">Ingresar<i class="fa-solid fa-user"></i></a></li>
+                            <li class="menu-nav__item"><a href="/productCart"><i
+                                        class="fa-solid fa-cart-shopping"></i></a></li>
+                        </ul>
+
+                    </nav>
+                    <div class="menu">
+                        <ul class="menu-list">
+                            <li class="menu-list__item space-arround"><a href="">Cafe</a></li>
+                            <li class="menu-list__item space-arround"><a href="">Accesorios</a></li>
+                            <li class="menu-list__item space-arround"><a href="">Barista Tools</a></li>
+                            <li class="menu-list__item space-arround"><a href="">Cafeteras</a></li>
+                        </ul>
+                    </div>
+                </header>
+                <main class="formulario">
+                    <div class="user">
+                        <img src="" alt="avatar usuario">
+                    </div>
+
+                    <div class="container-formulario">
+                        <form class="formulario-campos" action="" method="get">
+                            <div class="input-formulario">
+
+                                <div class="form-left">
+                                    <p>
+                                        <label for="">Nombre</label>
+                                    </p>
+                                    <p>
+                                        <input type="text">
+                                    </p>
+
+                                    <p>
+                                        <label for="">Email</label>
+                                    </p>
+                                    <p>
+                                        <input type="email">
+                                    </p>
+
+                                    <p>
+                                        <label for="">Contraseña</label>
+                                    </p>
+                                    <p>
+                                        <input type="password">
+                                    </p>
+
+                                    <p>
+                                        <label for="">Direccion de Residencia</label>
+                                    </p>
+                                    <p>
+                                        <input type="address" name="">
+                                    </p>
+
+                                </div>
+
+                                <div class="form-rigth">
+                                    <p>
+                                        <label for="">Apellido</label>
+                                    </p>
+                                    <p>
+                                        <input type="text" name="" id="">
+                                    </p>
+
+                                    <p>
+                                        <label for="">Telefono</label>
+                                    </p>
+                                    <p>
+                                        <input type="number" name="" id="">
+                                    </p>
+
+                                    <p>
+                                        <label for="">Validar contraseña</label>
+                                    </p>
+                                    <p>
+                                        <input type="password" name="" id="">
+                                    </p>
+
+                                    <p>
+                                        <label for="">Piso</label>
+                                    </p>
+                                    <p>
+                                        <input type="number">
+                                    </p>
+
+                                    <p>
+                                        <label for="">Apartamento</label>
+                                    </p>
+                                    <p>
+                                        <input type="text">
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="news-register">
+                                <p>Deseo recibir email publicitarios</p> <input class="news" type="checkbox">
+                                <button class="register" type="submit">Registrarme</button>
+                            </div>
+                        </form>
+                    </div>
+                </main>
+
+
+                <%- include ('./partials/footer.ejs') %>
+        </body>
+
+</html>

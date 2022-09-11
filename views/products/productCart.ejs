@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+ <%- include('/views/partials/head.ejs') %> 
+
+  <!-- hay que ver como hacer el llamado a este css  <link rel="stylesheet" href="../public/stylesheets/productCart.css"> mientras tanto esto va a estar roto -->
+<body>
+    <%- include('/views/partials/header.ejs') %> 
+    <main>
+        <section>
+            <div class="display_flex">
+                <div  class="circle active"><p>1</p></div>
+                <h3 class="text-payment-flow">CARRITO</h3>
+                <i class="fas fa-angle-right"></i>
+                <div  class="circle"><p>2</p></div>
+                <h3 class="text-payment-flow">DETALLE DEL PAGO</h3>
+                <i class="fas fa-angle-right"></i>
+                <div  class="circle"><p>3</p></div>
+                <h3 class="text-payment-flow">PAGO FINALIZADO</h3>
+            </div>
+        </section>
+        <section class="container">
+            <div class="panel-izquierdo">
+                <div class="contenedor-items-panel">
+                    <table class="table">
+                        <thead>
+                            <tr class="linea_abajo">
+                                <th class="texto_izquierda">PRODUCTO</th>
+                                <th>PRECIO</th>
+                                <th>CANTIDAD</th>
+                                <th>SUBTOTAL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                    <a href="/"><button class="button"><i class="fas fa-long-arrow-left"></i>Seguir comprando</button></a>
+                </div>
+            </div>
+            <div class="panel-derecho">
+                <div class="contenedor-items-panel display_flex_column">
+                    <h1 style="margin-bottom: 40px;" class="linea_abajo">Total del Carrito</h1>
+                    <form class="display_flex_column">
+                        <input placeholder="Subtotal">
+                        <input placeholder="Envío">
+                        <input placeholder="Total">
+                        <button class="button">FINALIZAR COMPRA</button>
+                    </form>
+                    <input placeholder="Codigo de cupon">
+                    <button class="button">APLICAR CUPON</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <%- include('/views/partials/footer.ejs') %> 
+</body>
+</html>
