@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background: var(--main-othercolor);
 }
 
 .formulario-avatar{
@@ -15,7 +16,8 @@
 }
 
 .avatar{
-    
+    background-color: aliceblue;
+    border-radius: 2.5rem;
 }
 
 .wrapper {
@@ -48,6 +50,10 @@
 }
 
 
-.register{
-    background-color: var(--main-color);
+.formulario-register{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0.5rem;
 }

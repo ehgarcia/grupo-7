@@ -9,161 +9,31 @@
 
         <%- include('../partials/header.ejs') %>
 
-            <main>
-                <div class="main-video">
-                    <video class="main-video__video" autoplay muted loop playsinline style="pointer-events: none;">
-                        <source
-                            src="//cdn.shopify.com/s/files/1/0374/3694/8611/t/22/assets/UrbanBaristas.mp4?v=50139519072764171471658979430"
-                            type="video/mp4">
-                    </video>
+        <main>
+            <div class="formulario">
+                <div class="formulario-avatar">
+                    <div class="avatar">
+                        <img src="../images/grano.png" alt="avatar usuario">
+                    </div>
+
+
                 </div>
+                <div class="wrapper">
+                    <div class="form-left">
 
-                <section class="products">
+                        <label for="name">Usuario</label>
+                        <input type="text" id="name">
 
-                    <div class="products-filter">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
 
-                        <div class="products-filter-order">
-                            <h4>Ordenar por</h4>
-                            <input list="order-by-choice" id="order-by" name="order-by" />
-
-                            <datalist id="order-by-choice">
-                                <option value="Mayor Precio">
-                                <option value="Menor Precio">
-                            </datalist>
-                        </div>
-
-                        <div class="products-filter-categories">
-                            <h4> Categorias </h4>
-                            <ul class="products-filter-categories-list">
-                                <li class="products-filter-categories-list__item"><a href="">Cafe y Te</a></li>
-                                <li class="products-filter-categories-list__item"><a href="">Cafe de Especialidad</a>
-                                </li>
-                                <li class="products-filter-categories-list__item"><a href="">Tostado</a></li>
-                                <li class="products-filter-categories-list__item"><a href="">Organico</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="products-filter-price">
-                            <h4>Precio</h4>
-                            <input type="number" name="min" id="price-min" placeholder="Min">
-                            <input type="number" name="max" id="price-max" placeholder="Max">
-                        </div>
-
-
-                    </div>
-
-                    <div class="products-cards">
-
-                        <div class="card space-arround">
-                            <div class="products-cards__like">
-                                <i class="fa-regular fa-heart"></i>
-                            </div>
-                            <img class="products-cards__image" src="" alt="">
-
-                            <div class="card__items">
-                                <h4>Titulo</h4>
-                                <span>$xxx</span>
-
-                                <input list="weight-select-choice" id="weight-select" name="weight-select"
-                                    placeholder="Selecciona peso" />
-
-                                <datalist id="weight-select-choice">
-                                    <option value="250 Gr">
-                                    <option value="500 Gr">
-                                </datalist>
-
-                                <input list="molienda-select-choice" id="molienda-select" name="molienda-select"
-                                    placeholder="Selecciona molienda" />
-
-                                <datalist id="molienda-select-choice">
-                                    <option value="Mayor Precio">
-                                    <option value="Menor Precio">
-                                </datalist>
-
-                                <button type="">Agregar al carrito</button>
-
-                            </div>
-                        </div>
-
-
-                        <div class="card space-arround">
-                            <div class="products-cards__like">
-                                <i class="fa-regular fa-heart"></i>
-                            </div>
-                            <img class="products-cards__image" src="" alt="">
-
-                            <div class="card__items">
-                                <h4>Titulo</h4>
-                                <span>$xxx</span>
-
-                                <input list="weight-select-choice" id="weight-select" name="weight-select"
-                                    placeholder="Selecciona peso" />
-
-                                <datalist id="weight-select-choice">
-                                    <option value="250 Gr">
-                                    <option value="500 Gr">
-                                </datalist>
-
-                                <input list="molienda-select-choice" id="molienda-select" name="molienda-select"
-                                    placeholder="Selecciona molienda" />
-
-                                <datalist id="molienda-select-choice">
-                                    <option value="Mayor Precio">
-                                    <option value="Menor Precio">
-                                </datalist>
-
-                                <button type="">Agregar al carrito</button>
-
-                            </div>
-                        </div>
-
-
-                        <div class="card space-arround">
-                            <div class="products-cards__like">
-                                <i class="fa-regular fa-heart"></i>
-                            </div>
-                            <img class="products-cards__image" src="" alt="">
-
-                            <div class="card__items">
-                                <h4>Titulo</h4>
-                                <span>$xxx</span>
-
-                                <input list="weight-select-choice" id="weight-select" name="weight-select"
-                                    placeholder="Selecciona peso" />
-
-                                <datalist id="weight-select-choice">
-                                    <option value="250 Gr">
-                                    <option value="500 Gr">
-                                </datalist>
-
-                                <input list="molienda-select-choice" id="molienda-select" name="molienda-select"
-                                    placeholder="Selecciona molienda" />
-
-                                <datalist id="molienda-select-choice">
-                                    <option value="Mayor Precio">
-                                    <option value="Menor Precio">
-                                </datalist>
-
-                                <button type="">Agregar al carrito</button>
-
-                            </div>
-                        </div>
-
-
-
-
+                        <button>Login</button>
 
                     </div>
 
 
-                </section>
-
-
-
-
-
+            </div>
             </main>
-
             <%- include('../partials/footer.ejs') %>
 
                 <!-- <button id = "open">
