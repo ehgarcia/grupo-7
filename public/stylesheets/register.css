@@ -6,11 +6,16 @@
     flex-wrap: wrap;
 }
 
-.hijo_al_100{
+.formulario-avatar{
     width: 100%;
-    color: white;
-    height: 200px;
     margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar{
+    
 }
 
 .wrapper {
