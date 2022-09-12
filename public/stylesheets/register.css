@@ -1,41 +1,45 @@
 .formulario{
-    background-color: var(--main-othercolor);
-    width: 80%;
-    /* display: flex; */
-
-    border: 5px solid blue;
-}
-
-.user{
-    border: 2px solid yellow;
-    flex-direction: row;
-    margin-bottom: 20px;
-}
-
-.container-formulario{
-    width: 100%;
-    /* display: flex; */
-    border: 2px solid greenyellow;
-
-}
-
-
-
-.input-formulario{
-    display: flex;
-}
-
-.formulario-campos{
     display: flex;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
+.hijo_al_100{
+    width: 100%;
+    color: white;
+    height: 200px;
+    margin: 0.5rem;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
 
 .form-left{
     width: 50%;
+    margin: 0.5rem;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .form-rigth{
     width: 50%;
+    margin: 0.5rem;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 

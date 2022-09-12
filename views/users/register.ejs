@@ -10,90 +10,51 @@
         <body>
 
             <%- include('../partials/header.ejs') %>
-                <main class="formulario">
+
+            <div class="formulario">
+                <div class="hijo_al_100">
                     <div class="user">
                         <img src="" alt="avatar usuario">
                     </div>
 
-                    <div class="container-formulario">
-                        <form class="formulario-campos" action="" method="get">
-                            <div class="input-formulario">
+                </div>
+                <div class="wrapper">
+                  <div class="form-left"> 
 
-                                <div class="form-left">
-                                    <p>
-                                        <label for="">Nombre</label>
-                                    </p>
-                                    <p>
-                                        <input type="text">
-                                    </p>
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name">
 
-                                    <p>
-                                        <label for="">Email</label>
-                                    </p>
-                                    <p>
-                                        <input type="email">
-                                    </p>
 
-                                    <p>
-                                        <label for="">Contraseña</label>
-                                    </p>
-                                    <p>
-                                        <input type="password">
-                                    </p>
+                        <label for="email">Email</label>
+                        <input type="email" id="emal">
 
-                                    <p>
-                                        <label for="">Direccion de Residencia</label>
-                                    </p>
-                                    <p>
-                                        <input type="address" name="">
-                                    </p>
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+  
+                        <label for="address">Direccion de Residencia</label>
+                        <input type="address" name="" id="address">
 
-                                </div>
+                  </div>
+                 <div class="form-rigth">
 
-                                <div class="form-rigth">
-                                    <p>
-                                        <label for="">Apellido</label>
-                                    </p>
-                                    <p>
-                                        <input type="text" name="" id="">
-                                    </p>
+                        <label for="lastName">Apellido</label>
+                        <input type="text" name="" id="lastName">
 
-                                    <p>
-                                        <label for="">Telefono</label>
-                                    </p>
-                                    <p>
-                                        <input type="number" name="" id="">
-                                    </p>
+                        <label for="phone">Telefono</label>
+                        <input type="phone" name="" id="phone">
 
-                                    <p>
-                                        <label for="">Validar contraseña</label>
-                                    </p>
-                                    <p>
-                                        <input type="password" name="" id="">
-                                    </p>
+                        
+                        <label for="passwordReValid">Validar contraseña</label>
+                        <input type="text" id="passwordReValid">
 
-                                    <p>
-                                        <label for="">Piso</label>
-                                    </p>
-                                    <p>
-                                        <input type="number">
-                                    </p>
 
-                                    <p>
-                                        <label for="">Apartamento</label>
-                                    </p>
-                                    <p>
-                                        <input type="text">
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="news-register">
-                                <p>Deseo recibir email publicitarios</p> <input class="news" type="checkbox">
-                                <button class="register" type="submit">Registrarme</button>
-                            </div>
-                        </form>
-                    </div>
-                </main>
+                        <label for="apartment">Apartamento</label>
+                        <input type="text" id="apartment">
+
+                 </div>
+                </div>
+              </div>
+
 
 
                 <%- include('../partials/footer.ejs') %>
