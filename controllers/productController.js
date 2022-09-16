@@ -5,7 +5,7 @@ const controller = {
         res.render('products/productCart', variables)
     },
     details: function(req,res){
-        res.render('products/productDetails')
+        res.render('products/productDetails', variables)
     },
 }
 

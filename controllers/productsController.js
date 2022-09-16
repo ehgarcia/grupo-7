@@ -1,6 +1,8 @@
+const variables = require("../public/globals")
+
 const controller = {
     productCard: function(req,res){
-        res.render('products/productCart')
+        res.render('products/productCart', variables)
     }
 }
 
