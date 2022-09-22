@@ -9,3 +9,9 @@
     dejar para ultimo momento / procastinar
 5. Dejar de hacer
    No comunicar al equipo las ausencias en los compromisos / levantar la mano
+
+## Weekly 16/09/2022
+
+Asistencia: 3/4
+
+Finalizamos el sprint 3, y empezamos a encarar hacer las pantallas mobile, tablet y desktop. 

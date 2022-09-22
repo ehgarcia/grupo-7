@@ -1,8 +1,11 @@
 const variables = require("../public/globals")
 
 const controller = {
-    upload: function(req,res){
-        res.render('admin/abmProduct', variables)
+    upload: (req,res) =>{
+        res.render('admin/abmProductUpload', variables)
+    },
+    edit: (req,res) => {
+        res.render('admin/abmProductEdit', variables)
     }
 }
 
