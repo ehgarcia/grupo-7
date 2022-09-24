@@ -1,4 +1,4 @@
-# Retro 2
+# Retro Sprint 1 y 2
 1. Comenzar a hacer
    Mas comunicacion. Una reunion los Lunes y lo Jueves a las 18:30 hora Argentina. 
 2. Hacer más
@@ -14,4 +14,8 @@
 
 Asistencia: 3/4
 
-Finalizamos el sprint 3, y empezamos a encarar hacer las pantallas mobile, tablet y desktop. 
+Finalizamos el sprint 3, y empezamos a encarar hacer las pantallas mobile, tablet y desktop.
+
+## Weekly 23/09/2022
+
+Creamos una rama para trabajar la parte responsive del sitio y mejoramos el look and feel de la pagina. 
