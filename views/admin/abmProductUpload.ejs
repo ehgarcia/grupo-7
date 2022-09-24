@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<%- include('../partials/head.ejs') %>
+    <%- include('../partials/head.ejs', {title:"Cargar Producto", style:"abmProduct"}) %>
 
     <!-- hay que ver como hacer el llamado a este css  <link rel="stylesheet" href="../public/stylesheets/login.css">, mientras tanto esto va a estar roto -->
 
@@ -46,20 +46,7 @@
             </main>
             <%- include('../partials/footer.ejs') %>
 
-                <!-- <button id = "open">
-            Login
-        </button>
-        <div class="modal-container" id="modal_container">
-            <div class="modal">
-                <div class="miniModal">
-                    <h1>¡Ingresá!</h1>
-                <p>Escribí tus datos acá:</p>
-                <button id="close">Cerrar</button>
-                </div>
-            </div>
-        </div> -->
 
-                <script src="login.js"> </script>
     </body>
 
 </html>

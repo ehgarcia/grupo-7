@@ -1,11 +1,9 @@
-const variables = require("../public/globals")
-
 const controller = {
     login: function(req,res){
-        res.render('users/login', variables)
+        res.render('users/login')
     },
     register: function(req,res){
-        res.render('users/register', variables)
+        res.render('users/register')
     }
 }
 

@@ -5,17 +5,11 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 
-// Global Variables ejs
-const variables = {
-  title: 'Título'
-}
-module.exports = variables
-
 //Router's
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users.js');
-var productRouter = require('./routes/product');
-var abmRouter = require('./routes/abm');
+var indexRouter = require('./routes/indexRouter');
+var usersRouter = require('./routes/usersRouter.js');
+var productRouter = require('./routes/productRouter');
+var abmRouter = require('./routes/abmRouter');
 
 var app = express();
 
