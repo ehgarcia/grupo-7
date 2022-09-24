@@ -4,7 +4,8 @@ let abmController = require ('../controllers/abmController')
 
 
 /* GET ABM*/
-router.get('/product', abmController.upload);
+router.get('/productUpload', abmController.upload);
 
+router.get('/productEdit', abmController.edit);
 
 module.exports = router;

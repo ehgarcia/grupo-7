@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <%- include('../partials/head.ejs', {title:"Cargar Producto", style:"abmProduct"}) %>
+
+    <!-- hay que ver como hacer el llamado a este css  <link rel="stylesheet" href="../public/stylesheets/login.css">, mientras tanto esto va a estar roto -->
+
+    <body>
+
+        <%- include('../partials/header.ejs') %>
+
+        <main>
+            <div class="formulario">
+                <div class="formulario-avatar">
+                    <div class="avatar">
+                        <img src="../images/grano.png" alt="avatar usuario">
+                    </div>
+
+
+                </div>
+                <div class="wrapper">
+                    <div class="form-left">
+
+                        <label for="name">Nombre del producto</label>
+                        <input type="text" id="name">
+
+                        <label for="password">Descripción</label>
+                        <input type="password" id="password">
+
+                        <label for="password">Imagen</label>
+                        <input type="password" id="password">
+
+                        <label for="password">Categoría</label>
+                        <input type="password" id="password">
+
+                        <label for="password">Precio</label>
+                        <input type="password" id="password">
+
+                        <button>Cargar</button>
+
+
+                    </div>
+
+
+            </div>
+            </main>
+            <%- include('../partials/footer.ejs') %>
+
+
+    </body>
+
+</html>

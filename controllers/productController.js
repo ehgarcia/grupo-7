@@ -1,11 +1,11 @@
-const variables = require('../public/globals')
+const { productCard } = require("./productsController")
 
 const controller = {
     cart: function(req,res){
-        res.render('products/productCart', variables)
+        res.render('products/productCart')
     },
     details: function(req,res){
-        res.render('products/productDetails', variables)
+        res.render('products/productDetails')
     },
 }
 
