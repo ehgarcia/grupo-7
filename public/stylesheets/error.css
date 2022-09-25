@@ -17,3 +17,7 @@ body{
 .error-description{
 display: none;
 }
+
+.offer{
+    display: none;
+}
