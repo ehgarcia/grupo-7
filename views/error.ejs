@@ -1,3 +1,23 @@
-<h1><%= message %></h1>
-<h2><%= error.status %></h2>
-<pre><%= error.stack %></pre>
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs', {title:"404 | Page Not Found", style:"error"}) %>
+<body>
+    <%- include('./partials/header.ejs') %>
+    <main>
+        <div class="wrapper">
+            <img src="./images/404-page-not-found.png" alt="">
+        </div>
+    </main>
+
+    <div class="error-description">
+        <h1>The server send:<%= message %> code: <%= error.status %> </h1>
+        <pre><%= error.stack %></pre>
+    </div>
+    
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>
+
+
+
+
