@@ -97,3 +97,18 @@
 .products-cards__image{
     border-radius: 15px;
 }
+
+.nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.nosotros h2{
+    width: 100%;
+    text-align: center;
+}
