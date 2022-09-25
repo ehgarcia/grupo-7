@@ -5,16 +5,70 @@
     <body>
         <%- include('./partials/header.ejs') %>
             <main>
-                <div class="main-video">
-                    <video class="main-video__video" autoplay muted loop playsinline style="pointer-events: none;">
-                        <source
-                            src="//cdn.shopify.com/s/files/1/0374/3694/8611/t/22/assets/UrbanBaristas.mp4?v=50139519072764171471658979430"
-                            type="video/mp4">
-                    </video>
+
+
+                <div class="hero">
+                    <img src="./images/hero_mobile.png" alt="">
                 </div>
 
-                <section class="products">
+                <div class="seccion-recomendados">
+                    <h2>Recomendados</h2>
+                    <div class="producto-recomendado">
+                        <div class="producto-recomendado-imagen">
+                            <img src="./images/recomendado_brasil_mobile.png" alt="">
+                        </div>
+                        <div class="producto-recomendado-descripcion">
+                            <h3>Brazil</h3>
+                            <p>Color: datazo</p>
+                            <p>Otro dato: Datazo</p>
+                            <p>Tipo de algo: Dato</p>
+                            <p>Tipo de algo: Dato</p>
+                        </div>
+                    </div>
 
+                    <div class="producto-recomendado">
+                        <div class="producto-recomendado-descripcion">
+                            <h3>Colombia</h3>
+                            <p>Color: datazo</p>
+                            <p>Otro dato: Datazo</p>
+                            <p>Tipo de algo: Dato</p>
+                            <p>Tipo de algo: Dato</p>
+                        </div>
+                        <div class="producto-recomendado-imagen">
+                            <img src="./images/recomendado_colombia_mobile.png" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="producto-recomendado">
+                        <div class="producto-recomendado-imagen">
+                            <img src="./images/recomendado_sumantra_mobile.png" alt="">
+                        </div>
+                        <div class="producto-recomendado-descripcion">
+                            <h3>Sumantra</h3>
+                            <p>Color: datazo</p>
+                            <p>Otro dato: Datazo</p>
+                            <p>Tipo de algo: Dato</p>
+                            <p>Tipo de algo: Dato</p>
+                        </div>
+                    </div> 
+
+                    <div class="producto-recomendado">
+                        <div class="producto-recomendado-descripcion">
+                            <h3>Costa Rica</h3>
+                            <p>Color: datazo</p>
+                            <p>Otro dato: Datazo</p>
+                            <p>Tipo de algo: Dato</p>
+                            <p>Tipo de algo: Dato</p>
+                        </div>
+                        <div class="producto-recomendado-imagen">
+                            <img src="./images/recomendado_costa-rica_mobile.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <section class="products">
+                    <h2>Productos</h2>
                     <div class="products-filter">
 
                         <div class="products-filter-order">
@@ -49,30 +103,29 @@
 
                     <div class="products-cards">
 
+                        <div class="searchBox">
+                            <input id="searchBox__input" class="searchBox__input" placeholder="Buscar..." type="text" /><i
+                                class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+
                         <div class="card space-arround">
                             <div class="products-cards__like">
                                 <i class="fa-regular fa-heart"></i>
                             </div>
-                            <img class="products-cards__image" src="" alt="">
+                            <img class="products-cards__image" src="./images/producto_bourbon_mobile.png" alt="">
 
                             <div class="card__items">
-                                <h4>Titulo</h4>
-                                <span>$xxx</span>
+                                <h4>Bournbon</h4>  
+                                <span>$ 375</span>
 
-                                <input list="weight-select-choice" id="weight-select" name="weight-select"
-                                    placeholder="Selecciona peso" />
-
-                                <datalist id="weight-select-choice">
-                                    <option value="250 Gr">
-                                    <option value="500 Gr">
-                                </datalist>
 
                                 <input list="molienda-select-choice" id="molienda-select" name="molienda-select"
-                                    placeholder="Selecciona molienda" />
+                                    placeholder="Molienda" />
 
                                 <datalist id="molienda-select-choice">
-                                    <option value="Mayor Precio">
-                                    <option value="Menor Precio">
+                                    <option value="Extra Fina">
+                                    <option value="Fina">
+                                    <option value="Gruesa">
                                 </datalist>
 
                                 <button type="">Agregar al carrito</button>
@@ -80,31 +133,24 @@
                             </div>
                         </div>
 
-
                         <div class="card space-arround">
                             <div class="products-cards__like">
                                 <i class="fa-regular fa-heart"></i>
                             </div>
-                            <img class="products-cards__image" src="" alt="">
+                            <img class="products-cards__image" src="./images/producto_nicaragua_mobile.png" alt="">
 
                             <div class="card__items">
-                                <h4>Titulo</h4>
-                                <span>$xxx</span>
+                                <h4>Nicaragua</h4>  
+                                <span>$ 375</span>
 
-                                <input list="weight-select-choice" id="weight-select" name="weight-select"
-                                    placeholder="Selecciona peso" />
-
-                                <datalist id="weight-select-choice">
-                                    <option value="250 Gr">
-                                    <option value="500 Gr">
-                                </datalist>
 
                                 <input list="molienda-select-choice" id="molienda-select" name="molienda-select"
-                                    placeholder="Selecciona molienda" />
+                                    placeholder="Molienda" />
 
                                 <datalist id="molienda-select-choice">
-                                    <option value="Mayor Precio">
-                                    <option value="Menor Precio">
+                                    <option value="Extra Fina">
+                                    <option value="Fina">
+                                    <option value="Gruesa">
                                 </datalist>
 
                                 <button type="">Agregar al carrito</button>
@@ -112,31 +158,24 @@
                             </div>
                         </div>
 
-
                         <div class="card space-arround">
                             <div class="products-cards__like">
                                 <i class="fa-regular fa-heart"></i>
                             </div>
-                            <img class="products-cards__image" src="" alt="">
+                            <img class="products-cards__image" src="./images/producto_guatemala_mobile.png" alt="">
 
                             <div class="card__items">
-                                <h4>Titulo</h4>
-                                <span>$xxx</span>
+                                <h4>Guatelama</h4>  
+                                <span>$ 375</span>
 
-                                <input list="weight-select-choice" id="weight-select" name="weight-select"
-                                    placeholder="Selecciona peso" />
-
-                                <datalist id="weight-select-choice">
-                                    <option value="250 Gr">
-                                    <option value="500 Gr">
-                                </datalist>
 
                                 <input list="molienda-select-choice" id="molienda-select" name="molienda-select"
-                                    placeholder="Selecciona molienda" />
+                                    placeholder="Molienda" />
 
                                 <datalist id="molienda-select-choice">
-                                    <option value="Mayor Precio">
-                                    <option value="Menor Precio">
+                                    <option value="Extra Fina">
+                                    <option value="Fina">
+                                    <option value="Gruesa">
                                 </datalist>
 
                                 <button type="">Agregar al carrito</button>
@@ -144,8 +183,155 @@
                             </div>
                         </div>
 
+                        <div class="card space-arround">
+                            <div class="products-cards__like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img class="products-cards__image" src="./images/producto_etiopia_mobile.png" alt="">
+
+                            <div class="card__items">
+                                <h4>Etiopia</h4>  
+                                <span>$ 375</span>
 
 
+                                <input list="molienda-select-choice" id="molienda-select" name="molienda-select"
+                                    placeholder="Molienda" />
+
+                                <datalist id="molienda-select-choice">
+                                    <option value="Extra Fina">
+                                    <option value="Fina">
+                                    <option value="Gruesa">
+                                </datalist>
+
+                                <button type="">Agregar al carrito</button>
+
+                            </div>
+                        </div>
+
+                        <div class="card space-arround">
+                            <div class="products-cards__like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img class="products-cards__image" src="./images/producto_verona_mobile.png" alt="">
+
+                            <div class="card__items">
+                                <h4>Verona</h4>  
+                                <span>$ 375</span>
+
+
+                                <input list="molienda-select-choice" id="molienda-select" name="molienda-select"
+                                    placeholder="Molienda" />
+
+                                <datalist id="molienda-select-choice">
+                                    <option value="Extra Fina">
+                                    <option value="Fina">
+                                    <option value="Gruesa">
+                                </datalist>
+
+                                <button type="">Agregar al carrito</button>
+
+                            </div>
+                        </div>
+
+                        <div class="card space-arround">
+                            <div class="products-cards__like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img class="products-cards__image" src="./images/producto_costa-rica_mobile.png" alt="">
+
+                            <div class="card__items">
+                                <h4>Costa Rica</h4>  
+                                <span>$ 375</span>
+
+
+                                <input list="molienda-select-choice" id="molienda-select" name="molienda-select"
+                                    placeholder="Molienda" />
+
+                                <datalist id="molienda-select-choice">
+                                    <option value="Extra Fina">
+                                    <option value="Fina">
+                                    <option value="Gruesa">
+                                </datalist>
+
+                                <button type="">Agregar al carrito</button>
+
+                            </div>
+                        </div>
+
+                        <div class="card space-arround">
+                            <div class="products-cards__like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img class="products-cards__image" src="./images/producto_colombia_mobile.png" alt="">
+
+                            <div class="card__items">
+                                <h4>Colombia</h4>  
+                                <span>$ 375</span>
+
+
+                                <input list="molienda-select-choice" id="molienda-select" name="molienda-select"
+                                    placeholder="Molienda" />
+
+                                <datalist id="molienda-select-choice">
+                                    <option value="Extra Fina">
+                                    <option value="Fina">
+                                    <option value="Gruesa">
+                                </datalist>
+
+                                <button type="">Agregar al carrito</button>
+
+                            </div>
+                        </div>
+
+                        <div class="card space-arround">
+                            <div class="products-cards__like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img class="products-cards__image" src="./images/producto_sumantra_mobile.png" alt="">
+
+                            <div class="card__items">
+                                <h4>Sumantra</h4>  
+                                <span>$ 375</span>
+
+
+                                <input list="molienda-select-choice" id="molienda-select" name="molienda-select"
+                                    placeholder="Molienda" />
+
+                                <datalist id="molienda-select-choice">
+                                    <option value="Extra Fina">
+                                    <option value="Fina">
+                                    <option value="Gruesa">
+                                </datalist>
+
+                                <button type="">Agregar al carrito</button>
+
+                            </div>
+                        </div>
+
+                        <div class="card space-arround">
+                            <div class="products-cards__like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img class="products-cards__image" src="./images/producto_brasil_mobile.png" alt="">
+
+                            <div class="card__items">
+                                <h4>Brail</h4>  
+                                <span>$ 375</span>
+
+
+                                <input list="molienda-select-choice" id="molienda-select" name="molienda-select"
+                                    placeholder="Molienda" />
+
+                                <datalist id="molienda-select-choice">
+                                    <option value="Extra Fina">
+                                    <option value="Fina">
+                                    <option value="Gruesa">
+                                </datalist>
+
+                                <button type="">Agregar al carrito</button>
+
+                            </div>
+                        </div>
 
 
                     </div>
