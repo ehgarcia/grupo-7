@@ -1,18 +1,27 @@
-.display_flex{
+.display_flex_nav_procesos{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px auto;
 }
 
-.display_flex i{
+.display_flex{
+    display: flex;
+}
+
+.display_none_min_700px{
+    display: none;
+}
+
+.display_flex_nav_procesos i{
     margin: auto 20px;
 }
 
 .circle{
     background-color: #aeaeae;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,16 +43,12 @@
 .container {
     width: 100%;
     height: 100%;
-    display: flex;
-    margin-top: 30px;
+    display: block;
+    margin-top: 10px;
 }
 
-.panel-izquierdo {
-    width: 60%;
-}
-
-.panel-derecho {
-    width: 40%;
+.contenedor-items-panel--title{
+    margin-bottom: 15px;
 }
 
 .display_flex_column{
@@ -54,19 +59,29 @@
 .display_flex_column input{
     border: none;
     border-bottom: 1px solid black;
-    font-size: 20px;
+    font-size: 10px;
     margin-top: 30px;
 }
 
+.panel-uno{
+    width: 100%;
+    margin: 50px auto;
+}
+
+.panel-dos {
+    width: 100%;
+    margin: 50px auto;
+}
+
 .table{
-    width: 90%;
+    width: 100%;
     margin: auto;
     border-collapse: collapse;
 }
 
 .linea_abajo{
     border-bottom: 1px solid black;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: normal;
 }
 
@@ -74,15 +89,8 @@
     font-weight: normal;
 }
 
-
 .texto_izquierda{
     text-align: left;
-}
-
-.separador_paneles{
-    width: 1px;
-    background-color: black;
-    margin: auto;
 }
 
 .button{
@@ -92,8 +100,69 @@
     padding: 10px;
     margin: 20px auto;
     width: 200px;
+    font-size: 10px;
 }
 
-@media (min-width: 361px) {
+@media screen and (min-width: 769px) {
+    .display_none_min_700px{
+        display: flex;
+    }
+
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .display_none_min_700px{
+        display: flex;
+    }
     
+    .circle{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .container {
+        display: flex;
+        margin-top: 30px;
+    }
+    
+    .contenedor-items-panel--title{
+        margin-bottom: 40px;
+    }
+
+    .display_flex_column input{
+        border: none;
+        border-bottom: 1px solid black;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    
+    .panel-uno {
+        width: 60%;
+    }
+    
+    .panel-dos {
+        width: 40%;
+    }
+
+    .table{
+        width: 90%;
+    }
+    
+    .linea_abajo{
+        font-size: 20px;
+    }
+    
+    .separador_paneles{
+        width: 1px;
+        background-color: black;
+        margin: auto;
+    }
+
+    .button{
+        font-size: 15px;
+    }
 }
