@@ -5,7 +5,13 @@
     <%- include('./partials/header.ejs') %>
     <main>
         <div class="wrapper">
-            <img src="../images/404-page-not-found.png" alt="">
+            <picture>
+                <source media="(max-width: 499px)" srcset="../images/404-page-not-found_mobile.png" class="products-cards__image">
+                <source media="(max-width: 1199px)" srcset="../images/404-page-not-found_tablet.png" class="products-cards__image">
+                <source media="(min-width: 1200px)" srcset="../images/404-page-not-found_desktop.png" class="products-cards__image">
+                <img src="../images/404-page-not-found_mobile.png" alt="">
+            </picture>
+            
         </div>
     </main>
 

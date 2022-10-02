@@ -122,10 +122,21 @@ padding: 5%;
         background-color: var(--main-color);
         font-size: small;
     }
+
+    .menu .menu-list{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .menu-burger{
+        display: none;
+    }
+
 }
 
 
-@media (min-width: 800px){
+@media (min-width: 760px){
 
 
     .offer{
@@ -136,12 +147,22 @@ padding: 5%;
         font-size: small;
     }
 
+    .menu .menu-list{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .menu-burger{
+        display: none;
+    }
 
 
     footer{
         display: flex;
         flex-direction: row;
         justify-content: center;
+        flex-wrap: nowrap;
     }
 
 

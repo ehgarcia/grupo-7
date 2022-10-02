@@ -7,12 +7,12 @@ body{
     background-color: #FCF8F3;
     margin-top: 10%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
-.wrapper img{
+/* .wrapper img{
     width: 100%;
-}
+} */
 
 .error-description{
 display: none;
