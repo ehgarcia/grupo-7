@@ -26,6 +26,7 @@
 .producto-recomendado{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     margin-top: 10%;
 }
@@ -115,7 +116,12 @@
 
 
 /* media query para tablet */
-@media screen and (min-width: 769px){
+@media screen and (min-width: 760px){
+
+    .nosotros{
+    flex-direction: row;
+    }
+
 
 }
 
@@ -125,4 +131,10 @@
         flex-direction: row;
     }
 
+    .producto-recomendado-imagen {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
