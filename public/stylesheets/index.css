@@ -112,3 +112,21 @@
     width: 100%;
     text-align: center;
 }
+
+
+/* media query para tablet */
+@media screen and (min-width: 769px){
+
+}
+
+/* media query para desktop */
+@media screen and (min-width: 1200px){
+    .nosotros{
+        flex-direction: row;
+    }
+
+    .products-cards{
+        width: 50%;
+    }
+
+}

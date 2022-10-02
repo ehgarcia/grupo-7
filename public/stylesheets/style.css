@@ -93,9 +93,7 @@ footer .logo{
 }
 
 footer ul {
-    margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+padding: 5%;
 }
 
 /* Caja de herramientas */
@@ -138,6 +136,13 @@ footer ul {
         font-size: small;
     }
 
+
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
 
 }
