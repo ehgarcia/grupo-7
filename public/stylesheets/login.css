@@ -1,123 +1,16 @@
-/*
-.products{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.products-cards{
-    display: flex;
-
-}
-
-.card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid black;
-    padding: 15px;
-    border-radius: 25px;
-}
-
-.card__items{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: white;
-    font-family: "poppins";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin: 0;
-
-}
-
-#open{
-    background-color: black;
-    border: 0px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    color:#DEBA9D;
-    font-size: 14px;
-    padding: 10px, 25px;
-}
-
-.modal-container {
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.3);
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    pointer-events: none;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    
-}
-
-.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-
-
-.modal {
-    position: relative;
-    background-color: white;
-    height: 590px;
-    max-height: 100%;
-    width: 500px;
-    max-width: 100%;
-    padding: 30px 50px;
-    border-radius: 17px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    text-align: center;
-}
-
-.miniModal {
-    background-color: #6F4C5B;
-    width: 400px;
-    height: 500px;
-    border-radius: 20px;
-    }
-    
-
-.modal h1 {
-    margin: 0;
-    color: white;
-
-}
-
-.modal p {
-    color: white;
-    opacity: 0.7;
-    font-size: 14px;
-} */
-
 .formulario{
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: var(--main-othercolor);
+    background: #fff;
 }
 
 .formulario-avatar{
     width: 100%;
-    margin: 0.5rem;
+    margin-top: 5%fi;
+    padding: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,16 +24,49 @@ body {
 .wrapper {
     width: 100%;
     display: flex;
-    justify-content: space-around;
   }
   
 
 .form-left{
     width: 50%;
-    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-rigth{
+    width: 50%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-register{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form-input{
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+input{
+    padding: 1%;
+    border-radius: 5px;
+}
+
+
+button:active{
+    transform: scale(.9);
+}
+
+button{
+    cursor: pointer;
+    padding: 10%;
+    border-radius: 5px;
 }
