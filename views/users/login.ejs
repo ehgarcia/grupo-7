@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <%- include('../partials/head.ejs', {title:"Register", style:"register"}) %>
-
-    <%- include('../partials/head.ejs') %>
+    <%- include('../partials/head.ejs', {title:"Register", style:"login"}) %>
 
         <body>
 
@@ -15,51 +13,30 @@
                             <img src="../images/grano.png" alt="avatar usuario">
                         </div>
 
-
                     </div>
                     <div class="wrapper">
-                        <div class="form-left">
+                        <div class="form-login">
 
-                            <label for="name">Nombre</label>
-                            <input type="text" id="name">
-
-
-                            <label for="email">Email</label>
-                            <input type="email" id="emal">
-
-                            <label for="password">Password</label>
-                            <input type="password" id="password">
-
-                            <label for="address">Direccion de Residencia</label>
-                            <input type="address" name="" id="address">
-
-                        </div>
-                        <div class="form-rigth">
-
-                            <label for="lastName">Apellido</label>
-                            <input type="text" name="" id="lastName">
-
-                            <label for="phone">Telefono</label>
-                            <input type="phone" name="" id="phone">
-
-
-                            <label for="passwordReValid">Validar contraseña</label>
-                            <input type="text" id="passwordReValid">
-
-
-                            <label for="apartment">Apartamento</label>
-                            <input type="text" id="apartment">
+                            <div class="form-input">
+                                <label for="email">Email</label>
+                                <input type="email" id="emal">
+                            </div>
+  
+                            <div class="form-input">
+                                <label for="password">Password</label>
+                                <input type="password" id="password">
+                                <span><a href="">¿Olvidaste tu contraseña?</a></span>
+                            </div>
 
                         </div>
                     </div>
                     <div class="formulario-register">
-                        <button>Registrarse</button>
+                        <button>Iniciar Sesion</button>
+                        <span>¿No tenés cuenta?<a href="./register"> Crear cuenta</a></span>
                     </div>
 
                 </div>
                 </main>
-
-
 
                 <%- include('../partials/footer.ejs') %>
         </body>

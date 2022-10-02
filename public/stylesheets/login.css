@@ -1,59 +1,72 @@
-.formulario{
+.formulario {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: var(--main-othercolor);
 }
 
-.formulario-avatar{
+.formulario-avatar {
     width: 100%;
-    margin: 0.5rem;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.avatar{
+.avatar {
     background-color: aliceblue;
     border-radius: 2.5rem;
+    padding: 2%;
 }
 
 .wrapper {
     width: 100%;
     display: flex;
     justify-content: space-around;
-  }
-  
-
-.form-left{
-    width: 50%;
-    margin: 0.5rem;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.form-rigth{
-    width: 50%;
-    margin: 0.5rem;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
 
 
-.formulario-register{
+.form-login {
+    width: 50%;
+    margin-top: 5%;
+    padding: 5%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-input {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+input {
+    padding: 1%;
+    border-radius: 5px;
+}
+
+
+button:active {
+    transform: scale(.9);
+}
+
+button {
+    cursor: pointer;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+span {
+    font-size: 12px;
+}
+
+.formulario-register {
     width: 100%;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5%;
 }
