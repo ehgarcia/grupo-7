@@ -32,7 +32,6 @@
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .form-rigth{
@@ -69,4 +68,20 @@ button{
     cursor: pointer;
     padding: 10%;
     border-radius: 5px;
+}
+
+@media (min-width: 500px){
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+
+@media (min-width: 760px){
+
+
+
 }

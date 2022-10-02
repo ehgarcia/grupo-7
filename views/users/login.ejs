@@ -3,8 +3,6 @@
 
     <%- include('../partials/head.ejs', {title:"Login", style:"login"}) %>
 
-    <!-- hay que ver como hacer el llamado a este css  <link rel="stylesheet" href="../public/stylesheets/login.css">, mientras tanto esto va a estar roto -->
-
     <body>
 
         <%- include('../partials/header.ejs') %>
@@ -24,45 +22,46 @@
                                 <label for="name">Nombre</label>
                                 <input type="text" id="name">
                             </div>
-
+                    
                             <div class="form-input">
                                 <label for="lastName">Apellido</label>
                                 <input type="text" name="" id="lastName">
                             </div>
-
+                    
                             <div class="form-input">
                                 <label for="password">Password</label>
                                 <input type="password" id="password">
                             </div>
-
+                    
                             <div class="form-input">
                                 <label for="passwordReValid">Validar contraseña</label>
                                 <input type="password" id="passwordReValid">
                             </div>
-
-
+                    
+                    
                         </div>
                         <div class="form-rigth">
                             <div class="form-input">
                                 <label for="email">Email</label>
                                 <input type="email" id="emal">
                             </div>
-
+                    
                             <div class="form-input">
                                 <label for="email">Validar Email</label>
                                 <input type="email" id="emal">
                             </div>
-
+                    
                             <div class="form-input">
                                 <label for="phone">Telefono</label>
                                 <input type="phone" name="" id="phone">
+                                
                             </div>
-
+                    
                             <div class="form-input">
-                            
+                    
                                 <label for="phone">Cafe Favorito</label>
                                 <input type="phone" name="" id="phone" list="molienda-select-choice">
-                            
+                    
                                 <datalist id="molienda-select-choice">
                                     <option value="Brasil">
                                     <option value="Etioopia">
@@ -75,7 +74,7 @@
                                     <option value="Verona">
                                 </datalist>
                             </div>
-
+                    
                         </div>
                     </div>
 
@@ -86,7 +85,6 @@
                 </div>
                 </main>
             <%- include('../partials/footer.ejs') %>
-
 
     </body>
 
