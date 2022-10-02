@@ -4,13 +4,12 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: #fff;
+    background: var(--main-othercolor);
 }
 
 .formulario-avatar{
     width: 100%;
-    margin-top: 5%;
-    padding: 0.5rem;
+    margin: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,102 +23,37 @@
 .wrapper {
     width: 100%;
     display: flex;
+    justify-content: space-around;
   }
   
 
 .form-left{
     width: 50%;
-    padding: 0.5rem;
+    margin: 0.5rem;
+    height: 200px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
 .form-rigth{
     width: 50%;
-    padding: 0.5rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.formulario-register{
+    margin: 0.5rem;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.form-input{
-margin-top: 5%;
-margin-bottom: 5%;
-}
-
-input{
-    padding: 1%;
-    border-radius: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 
-button:active{
-    transform: scale(.9);
-}
-
-button{
-    cursor: pointer;
-    padding: 10%;
-    border-radius: 5px;
-}
-
-@media (min-width: 500px){
-
-    .form-rigth,.form-left{
-        padding: 5%;
-    }
-
-    .form-input{
-        display: flex;
-        flex-direction: column;
-    }
-
-}
-
-
-@media (min-width: 760px){
-    .formulario-avatar{
-        margin-top: 2%;
-    }
-
-    .avatar{
-        padding: 1%;
-    }
-
-    .form-rigth,.form-left{
-        padding: 2%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    
-    .form-input{
-        width: 50%;
-    }
-
-    .formulario-register{
-        width: 100%;
-        margin-top: 0;
-    }
-
-    button{
-        cursor: pointer;
-        padding: 1%;
-    }
-}
-
-
-@media screen and (min-width: 1200px){
-
-    .wrapper {
-        width: 80%;
-    }
+.formulario-register{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0.5rem;
 }
