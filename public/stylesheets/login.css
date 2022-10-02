@@ -9,7 +9,7 @@
 
 .formulario-avatar{
     width: 100%;
-    margin-top: 5%fi;
+    margin-top: 5%;
     padding: 0.5rem;
     display: flex;
     justify-content: center;
@@ -72,16 +72,54 @@ button{
 
 @media (min-width: 500px){
 
-.form-input{
-    display: flex;
-    flex-direction: column;
-}
+    .form-rigth,.form-left{
+        padding: 5%;
+    }
+
+    .form-input{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
 
 @media (min-width: 760px){
+    .formulario-avatar{
+        margin-top: 2%;
+    }
+
+    .avatar{
+        padding: 1%;
+    }
+
+    .form-rigth,.form-left{
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .form-input{
+        width: 50%;
+    }
+
+    .formulario-register{
+        width: 100%;
+        margin-top: 0;
+    }
+
+    button{
+        cursor: pointer;
+        padding: 1%;
+    }
+}
 
 
+@media screen and (min-width: 1200px){
 
+    .wrapper {
+        width: 80%;
+    }
 }
