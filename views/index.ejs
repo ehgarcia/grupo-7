@@ -8,7 +8,33 @@
 
 
                 <div class="hero">
-                    <img src="./images/hero_mobile.png" alt="">
+                    <script >
+                        var objetos = new Array();
+                        objetos[0] = "/images/random/Colombia.png";
+                        objetos[1] = "/images/random/CostaRica.png";
+                        objetos[2] = "/images/random/Brasil.png";
+                        objetos[3] = "/images/random/guatemala.png";
+                        objetos[4] = "/images/random/Etiopia.png";
+                        objetos[5] = "/images/random/Nicaragua.png";
+                        objetos[6] = "/images/random/Bourbon.png";
+                        objetos[7] = "/images/random/Verona.png";
+                        objetos[8] = "/images/random/Sumatra.png";
+
+                        function aleatorio() {
+                            var azar = Math.floor(Math.random() * objetos.length);
+                            document.images["imagen"].src = objetos[azar];
+                        }
+                        </script>
+                        <div>
+                            <h1 class="textTop">Life is better</h1>
+                            <h1 class="textBottom">with coffee</h1>
+                        </div>
+                        </head>
+                        
+                        
+                        <body onload="aleatorio()">
+                             <img src="" name="imagen" />
+                        </body>
                 </div>
 
                 <div class="seccion-recomendados">

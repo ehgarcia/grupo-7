@@ -5,10 +5,73 @@
     justify-content: center;
 }
 
-.hero img{
-    width: 100%;
-    padding: 5%;
+.hero img {
+    width: 90%;
+    position: relative;
+    left: 22px;
+    bottom: 0px;
 }
+
+@media screen and (min-width: 1280px) {
+.hero img {
+    width: 83%;
+    position: relative;
+    left: 82px;
+    bottom: 29px;
+} }
+
+.textTop {
+    position: relative;
+    left: 90px;
+    top: 10px;
+    font-size: 30px;
+    white-space: nowrap;
+} 
+
+@media screen and (min-width: 768px)  {
+    .textTop {
+        position: relative;
+        left: 167px;
+        top: 193px;
+        font-size: 37px;
+        white-space: nowrap;
+} }
+
+@media screen and (min-width: 1280px) {
+    .textTop {
+        position: relative;
+        left: 217px;
+        top: 282px;
+        font-size: 50px;
+        white-space: nowrap;
+} }
+    
+
+.textBottom  {
+        position: relative; 
+        left: 95px;
+        top: 1px;
+        font-size: 30px;
+        white-space: nowrap;
+} 
+
+@media screen and (min-width: 768px) {
+    .textBottom  {
+        position: relative; 
+        left: 240px;
+        top: 180px;
+        font-size: 37px;
+        white-space: nowrap;
+} }
+
+@media screen and (min-width: 1280px) {
+    .textBottom  {
+        position: relative;
+        left: 330px;
+        top: 260px;
+        font-size: 50px;
+        white-space: nowrap;
+} }
 
 .seccion-recomendados{
     display: flex;
