@@ -2,16 +2,48 @@
 <html lang="es">
 <%- include('./partials/head.ejs', {title:"Cafe Buenos Aires", style:"index"}) %>
 
-    <body>
+    <body onload="randonMobile();">
         <%- include('./partials/header.ejs') %>
             <main>
+                <script >
+                    var imagenesMobile = new Array();
+                    imagenesMobile[0] = "./images/producto_nicaragua_mobile.png";
+                    imagenesMobile[1] = "./images/producto_sumantra_mobile.png";
+                    imagenesMobile[2] = "./images/producto_etiopia_mobile.png";
+                    imagenesMobile[3] = "./images/producto_guatemala_mobile.png";
+                    imagenesMobile[4] = "./images/producto_verona_mobile.png";
+                    // imagenesMobile[5] = "./images/producto_sumantra_mobile.png";
+                    // imagenesMobile[6] = "./images/producto_sumantra_mobile.png";
+                    // imagenesMobile[7] = "./images/producto_sumantra_mobile.png";
+                    // imagenesMobile[8] = "./images/producto_sumantra_mobile.png";
 
+                    function randonMobile (){
+                        var azar = Math.floor(Math.random() * imagenesMobile.length);
+                        let heroMobile = document.querySelector('#heroMobile')
+                        heroMobile.srcset = imagenesMobile[azar];
+                    }
+
+                    function randonTablet(){
+                        var azar = Math.floor(Math.random() * objetos.length);
+                        document.images["imagen"].srcset = objetos[azar];
+                    }
+
+                    function randonDesktop(){
+                        var azar = Math.floor(Math.random() * objetos.length);
+                        document.images["imagen"].src = objetos[azar];
+                    }
+
+                    // function aleatorio() {
+                    //     randonMobile();
+
+                    // }
+                    </script>
 
                 <div class="hero">
                     <picture>
-                        <source media="(max-width: 499px)" srcset="./images/hero_mobile.png" class="products-cards__image">
-                        <source media="(max-width: 1199px)" srcset="./images/hero_tablet.png" class="products-cards__image">
-                        <source media="(min-width: 1200px)" srcset="./images/hero_desktop.png" class="products-cards__image">
+                        <source media="(max-width: 499px)" srcset="" class="products-cards__image" id="heroMobile">
+                        <source media="(max-width: 1199px)" srcset="./images/hero_tablet.png" class="products-cards__image" id="heroTablet">
+                        <source media="(min-width: 1200px)" srcset="./images/hero_desktop.png" class="products-cards__image" id="heroDesktop">
                         <img class="products-cards__image" src="./images/hero_mobile.png" alt="">
                     </picture>
                 </div>
