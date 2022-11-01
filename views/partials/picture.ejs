@@ -1,0 +1,6 @@
+<picture>
+    <source media="(max-width: 499px)" srcset="./images/<%= seccion %>_<%= producto %>_mobile.png" class="products-cards__image">
+    <source media="(max-width: 1199px)" srcset="./images/<%= seccion %>_<%= producto %>_tablet.png" class="products-cards__image">
+    <source media="(min-width: 1200px)" srcset="./images/<%= seccion %>_<%= producto %>_desktop.png" class="products-cards__image">
+    <img class="products-cards__image" src="./images/<%= seccion %>_<%= producto %>_mobile.png" alt="">
+</picture>

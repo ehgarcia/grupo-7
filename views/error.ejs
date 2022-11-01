@@ -1,3 +1,29 @@
-<h1><%= message %></h1>
-<h2><%= error.status %></h2>
-<pre><%= error.stack %></pre>
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs', {title:"404 | Page Not Found", style:"error"}) %>
+<body>
+    <%- include('./partials/header.ejs') %>
+    <main>
+        <div class="wrapper">
+            <picture>
+                <source media="(max-width: 499px)" srcset="../images/404-page-not-found_mobile.png" class="products-cards__image">
+                <source media="(max-width: 1199px)" srcset="../images/404-page-not-found_tablet.png" class="products-cards__image">
+                <source media="(min-width: 1200px)" srcset="../images/404-page-not-found_desktop.png" class="products-cards__image">
+                <img src="../images/404-page-not-found_mobile.png" alt="">
+            </picture>
+            
+        </div>
+    </main>
+
+    <div class="error-description">
+        <h1>The server send:<%= message %> code: <%= error.status %> </h1>
+        <pre><%= error.stack %></pre>
+    </div>
+    
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>
+
+
+
+

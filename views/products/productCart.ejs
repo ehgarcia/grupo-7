@@ -8,21 +8,27 @@
     <%- include('../partials/header.ejs') %> 
     <main>
         <section>
-            <div class="display_flex">
-                <div  class="circle active"><p>1</p></div>
-                <h3 class="text-payment-flow">CARRITO</h3>
-                <i class="fas fa-angle-right"></i>
+            <div class="display_flex_nav_procesos">
+                    <div class="display_flex">
+                        <div class="circle active"><p>1</p></div>
+                        <h3 class="text-payment-flow">CARRITO</h3>
+                        <i class="fas fa-angle-right"></i>
+                    </div>
 
-                <div  class="circle"><p>2</p></div>
-                <h3 class="text-payment-flow">DETALLE DEL PAGO</h3>
-                <i class="fas fa-angle-right"></i>
-                
-                <div  class="circle"><p>3</p></div>
-                <h3 class="text-payment-flow">PAGO FINALIZADO</h3>
+                    <div class="display_flex display_none_min_700px">
+                        <div  class="circle"><p>2</p></div>
+                        <h3 class="text-payment-flow">DETALLE DEL PAGO</h3>
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+
+                    <div class="display_flex display_none_min_700px">
+                        <div  class="circle"><p>3</p></div>
+                        <h3 class="text-payment-flow">PAGO FINALIZADO</h3>
+                    </div>
             </div>
         </section>
         <section class="container">
-            <div class="panel-izquierdo">
+            <div class="panel-dos">
                 <div class="contenedor-items-panel">
                     <table class="table">
                         <thead>
@@ -40,9 +46,9 @@
                     <a href="/"><button class="button"><i class="fas fa-long-arrow-left"></i>Seguir comprando</button></a>
                 </div>
             </div>
-            <div class="panel-derecho">
+            <div class="panel-uno">
                 <div class="contenedor-items-panel display_flex_column">
-                    <h1 style="margin-bottom: 40px;" class="linea_abajo">Total del Carrito</h1>
+                    <h1 class="contenedor-items-panel--title linea_abajo">Total del Carrito</h1>
                     <form class="display_flex_column">
                         <input placeholder="Subtotal">
                         <input placeholder="Envío">

@@ -1,0 +1,23 @@
+body{
+    background-color: #FCF8F3;
+}
+
+.wrapper{
+    width: 100%;
+    background-color: #FCF8F3;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+/* .wrapper img{
+    width: 100%;
+} */
+
+.error-description{
+display: none;
+}
+
+.offer{
+    display: none;
+}

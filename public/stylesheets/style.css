@@ -7,25 +7,29 @@
 }
 
 :root{
-    --main-bg-color: #F5E8C7;
+    --main-bg-color: #CFE4FF;
     --main-color: #DEBA9D;
     --main-recolor: #9E7777;
     --main-othercolor: #6F4C5B;
 }
 
+/* Mobile First */
+
 .offer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--main-color);
-    font-size: small;
+    display: none;
 }
+
+.menu .menu-list{
+    display: none;
+}
+
 
 nav{
     height: 120px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: var(--main-bg-color);
 }
 
 .logo{
@@ -34,8 +38,6 @@ nav{
 
 .logo__icon{
     width: 120px;
-    padding-left: 10px;
-   
 }
 
 .searchBox{
@@ -78,10 +80,20 @@ nav{
 
 footer{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
     flex-grow: 0.5;
-    background-color: var(--main-color);
+    background-color: var(--main-bg-color);
+}
+
+footer .logo{
+    display: none;
+}
+
+footer ul {
+padding: 5%;
 }
 
 /* Caja de herramientas */
@@ -97,5 +109,61 @@ footer{
 }
 
 
+
 /* Media Querys */
 
+@media (min-width: 500px){
+
+
+    .offer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--main-color);
+        font-size: small;
+    }
+
+    .menu .menu-list{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .menu-burger{
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 760px){
+
+
+    .offer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--main-color);
+        font-size: small;
+    }
+
+    .menu .menu-list{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .menu-burger{
+        display: none;
+    }
+
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+
+}
